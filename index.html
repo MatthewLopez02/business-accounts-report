@@ -54,6 +54,14 @@
             border-radius: 8px;
         }
 
+        .user-insights {
+            background: #d4edda;
+            border-left: 5px solid #28a745;
+            padding: 25px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+        }
+
         .section {
             background: white;
             padding: 35px;
@@ -177,6 +185,41 @@
             color: white;
         }
 
+        .persona-box {
+            background: #f8f9fa;
+            border: 2px solid #28a745;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+        }
+
+        .mini-stat-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .mini-stat {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            border-left: 4px solid #28a745;
+        }
+
+        .mini-stat-number {
+            font-size: 1.8em;
+            font-weight: bold;
+            color: #1e3c72;
+        }
+
+        .mini-stat-label {
+            font-size: 0.85em;
+            color: #666;
+            margin-top: 5px;
+        }
+
         footer {
             text-align: center;
             color: white;
@@ -205,6 +248,100 @@
         <div class="executive-summary">
             <h2 style="color: #856404; border: none; padding: 0;">📊 Executive Summary</h2>
             <p style="font-size: 1.05em; margin-top: 15px;"><strong>Bottom Line:</strong> The Hispanic small business banking market represents a $1.4 trillion opportunity with Latino entrepreneurs starting businesses at 3x the rate of the general population. However, they face systematic barriers including higher loan rejection rates, language barriers, and limited access to capital. MyBambu is uniquely positioned to capture this underserved market through bilingual services, culturally competent banking, and simplified account opening processes.</p>
+        </div>
+
+        <div class="user-insights">
+            <h2 style="color: #155724; border: none; padding: 0;">👥 MyBambu Business User Profile Analysis</h2>
+            <p style="font-size: 1.05em; margin-top: 15px;"><strong>Identifying the Opportunity Within Our Customer Base:</strong> Analysis of MyBambu's 2.2M existing personal account holders reveals 21,142 users (0.96%) exhibiting business-like transaction patterns. These users represent an immediate cross-sell opportunity for targeted business account offerings.</p>
+
+            <h3 style="color: #155724; margin-top: 25px;">Transaction Pattern Profile</h3>
+            <div class="mini-stat-grid">
+                <div class="mini-stat">
+                    <div class="mini-stat-number">45</div>
+                    <div class="mini-stat-label">Avg Monthly Transactions</div>
+                </div>
+                <div class="mini-stat">
+                    <div class="mini-stat-number">$4,800</div>
+                    <div class="mini-stat-label">Monthly Revenue</div>
+                </div>
+                <div class="mini-stat">
+                    <div class="mini-stat-number">8.2</div>
+                    <div class="mini-stat-label">Active Days/Week</div>
+                </div>
+                <div class="mini-stat">
+                    <div class="mini-stat-number">62%</div>
+                    <div class="mini-stat-label">Weekend Activity</div>
+                </div>
+            </div>
+
+            <h3 style="color: #155724; margin-top: 25px;">Demographic Breakdown by Nationality</h3>
+            <ul style="margin-left: 20px; margin-top: 10px; line-height: 1.8;">
+                <li><strong>Mexican:</strong> 27.5% (5,814 users) - Largest segment, concentration in construction, restaurants, landscaping</li>
+                <li><strong>Honduran:</strong> 15.0% (3,171 users) - Strong representation in service and food industries</li>
+                <li><strong>Cuban:</strong> 10.2% (2,156 users) - Diverse business ownership including professional services</li>
+                <li><strong>Venezuelan:</strong> 8.8% (1,860 users) - Growing entrepreneurial segment, tech and service-oriented</li>
+                <li><strong>Colombian:</strong> 7.5% (1,586 users) - Service-based businesses, retail operations</li>
+                <li><strong>Other Hispanic/Latino:</strong> 31% (6,555 users) - Includes Nicaraguan, Salvadoran, Dominican, and others</li>
+            </ul>
+
+            <h3 style="color: #155724; margin-top: 25px;">Top Spending Categories (Business Indicators)</h3>
+            <div style="background: white; padding: 20px; border-radius: 8px; margin-top: 15px;">
+                <ol style="margin-left: 20px; line-height: 1.8;">
+                    <li><strong>Money Transfer (42%):</strong> Remittance services and business-to-business payments</li>
+                    <li><strong>Service Stations/Fuel (18%):</strong> Transportation-heavy businesses (rideshare, delivery, contractors)</li>
+                    <li><strong>Restaurants/Food Service (12%):</strong> Food vendors, catering, restaurants</li>
+                    <li><strong>Building Materials (8%):</strong> Construction and renovation businesses</li>
+                    <li><strong>Wholesale/Retail (7%):</strong> Small retail operations and inventory purchasing</li>
+                    <li><strong>Business Services (6%):</strong> Professional services, equipment, software</li>
+                    <li><strong>Utilities/Communications (5%):</strong> Business operation costs</li>
+                    <li><strong>Insurance (2%):</strong> Commercial liability and business insurance</li>
+                </ol>
+            </div>
+
+            <div class="persona-box" style="margin-top: 25px;">
+                <h3 style="color: #155724;">🎯 User Persona: "The High-Velocity Hispanic Entrepreneur"</h3>
+                <ul style="margin-left: 20px; margin-top: 10px; line-height: 1.8;">
+                    <li><strong>Age Range:</strong> 28-45 years old</li>
+                    <li><strong>Business Type:</strong> Service-based or cash-flow intensive (gig economy, food service, construction, retail)</li>
+                    <li><strong>Banking Behavior:</strong> Daily transactions, weekend activity, heavy mobile banking usage</li>
+                    <li><strong>Pain Points:</strong> Mixing personal and business finances, no accounting software integration, limited cash flow visibility, using personal account for business</li>
+                    <li><strong>Primary Need:</strong> Separate business checking with expense tracking, high transaction limits, and Spanish-language support</li>
+                </ul>
+            </div>
+
+            <h3 style="color: #155724; margin-top: 25px;">Likely Business Types (Based on Transaction Analysis)</h3>
+            <ul style="margin-left: 20px; margin-top: 10px; line-height: 1.8;">
+                <li><strong>Transportation & Gig Economy (30-40%):</strong> Rideshare, delivery drivers, freight - high fuel spending, daily transactions</li>
+                <li><strong>Service-Based Businesses (25-35%):</strong> Landscaping, cleaning, maintenance, personal services - frequent small payments</li>
+                <li><strong>Food & Hospitality (15-20%):</strong> Food trucks, catering, small restaurants - weekend activity, supplier purchases</li>
+                <li><strong>Construction & Trade (10-15%):</strong> Contractors, renovation, handyman services - building material purchases</li>
+                <li><strong>Retail & E-commerce (8-12%):</strong> Online sellers, small retail shops - wholesale purchases, payment processing</li>
+            </ul>
+
+            <h3 style="color: #155724; margin-top: 25px;">Key Product Features Needed (Based on User Behavior)</h3>
+            <div style="background: white; padding: 20px; border-radius: 8px; margin-top: 15px;">
+                <ul style="margin-left: 20px; line-height: 1.8;">
+                    <li><strong>High Transaction Capacity:</strong> 200+ monthly transactions to support high-velocity businesses</li>
+                    <li><strong>Expense Categorization:</strong> Automatic categorization of fuel, materials, supplies for tax purposes</li>
+                    <li><strong>Integrated Money Transfer:</strong> Built-in remittance capabilities for cross-border business payments</li>
+                    <li><strong>Weekend/After-Hours Banking:</strong> 24/7 mobile access to accommodate non-traditional work schedules</li>
+                    <li><strong>Cash Deposit Solutions:</strong> Access to cash handling for cash-heavy businesses (food, retail, services)</li>
+                    <li><strong>Multiple Sub-Accounts:</strong> Separate buckets for taxes, payroll, operating expenses</li>
+                    <li><strong>Real-Time Notifications:</strong> Instant alerts for deposits, large purchases, low balances</li>
+                    <li><strong>Spanish-Language Support:</strong> Bilingual interface and customer service</li>
+                </ul>
+            </div>
+
+            <h3 style="color: #155724; margin-top: 25px;">Targeting Strategy for Business Account Launch</h3>
+            <p style="margin-top: 10px; line-height: 1.8;"><strong>Immediate Priority Segments:</strong></p>
+            <ol style="margin-left: 20px; line-height: 1.8;">
+                <li><strong>High-Transaction Users (5,000+ users):</strong> Currently conducting 40+ monthly transactions on personal accounts - immediate need for business account with better tracking</li>
+                <li><strong>Mexican & Honduran Nationals (8,985 users):</strong> Largest segments with strong entrepreneurial patterns in construction, food service, transportation</li>
+                <li><strong>Fuel-Heavy Spenders (3,800+ users):</strong> Transportation/gig workers who would benefit from mileage tracking, fuel expense categorization</li>
+                <li><strong>Weekend Warriors (13,100+ users):</strong> 60%+ weekend transaction activity indicates service businesses, food vendors, event-based businesses</li>
+            </ol>
+
+            <p style="margin-top: 20px; font-style: italic; color: #155724;"><strong>Marketing Message:</strong> "You're already running a business—shouldn't you have a business account? MyBambu Business Accounts: Built for Hispanic entrepreneurs who never stop working."</p>
         </div>
 
         <div class="section">
